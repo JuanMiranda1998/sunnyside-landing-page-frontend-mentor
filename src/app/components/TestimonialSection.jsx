@@ -23,8 +23,8 @@ const TestimonialSection = () => {
     }
   ]
   return (
-    <div className='py-10 pb-20 md:py-28 px-4 bg-[var(--clr-neutral-white)] text-center text-[var(--clr-neutral-very-dark-desatured-blue)] '>
-        <h1 className='text-[1.125rem] font-title text-[var(--clr-neutral-grayish-blue)] uppercase my-5' style={{fontWeight: 900, letterSpacing: '2px'}}>Client testimonials</h1>
+    <div className='py-10 pb-20 md:py-32 px-4 bg-[var(--clr-neutral-white)] text-center text-[var(--clr-neutral-very-dark-desatured-blue)] '>
+        <h1 className='text-[1.125rem] font-title text-[var(--clr-neutral-grayish-blue)] uppercase mt-2 mb-12' style={{fontWeight: 900, letterSpacing: '2px'}}>Client testimonials</h1>
         <div className='flex flex-col md:flex-row md:justify-center gap-8'>
           {testimonials.map((testimonial,index)=><Testimonial key={index} testimonialContent={testimonial} />)}
         </div>

@@ -25,11 +25,11 @@ const Navbar = () => {
 
   return (
     <nav className='w-full absolute'>
-        <div className='flex flex-wrap items-center justify-between mx-auto px-4 md:px-8 py-4 lg:py-4'>
+        <div className='flex flex-wrap items-center justify-between mx-auto px-4 md:px-8 py-4 lg:py-8 lg:px-10'>
           <Image
               src='/images/logo.svg'
-              width={150}
-              height={150}
+              width={170}
+              height={170}
               alt='sunnyside logo'
           />
           <div className='menu hidden md:block md:w-auto md:pr-4'>
