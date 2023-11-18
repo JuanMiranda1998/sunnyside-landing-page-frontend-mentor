@@ -5,7 +5,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col gap-8 py-10 items-center text-center bg-[#90d4c5] text-[var(--clr-primary-moderate-cyan)]'>
+    <div className='flex flex-col gap-8 py-10 md:py-24 items-center text-center bg-[#90d4c5] text-[var(--clr-primary-moderate-cyan)]'>
       <Image 
         src='/images/logo-footer.svg'
         alt=''
