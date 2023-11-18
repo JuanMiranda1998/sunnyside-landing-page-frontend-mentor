@@ -23,7 +23,7 @@ const DoubleCard = ({ cardContent, inverted, cardTheme }) => {
         </div>
         <div className=' sm:w-[50%] col-span-1 px-8 lg:px-32 py-16 text-center md:text-left flex flex-col justify-center'>
             <h2 className=' text-3xl font-title mb-4' style={{fontWeight: 'var(--fw-black)'}}>{cardContent.title}</h2>
-            <p className=' p-1 text-[var(--clr-neutral-dark-grayish-blue)] text-[.825rem] font-bold leading-7'
+            <p className=' p-1 text-[var(--clr-neutral-dark-grayish-blue)] text-[.825rem] font-bold leading-7 md:text-base'
             >{cardContent.content}</p>
             <div className='relative flex flex-col items-center justify-center md:items-start mt-10 mb-2'>
                 <CardButton text={cardContent.btnText} decorationColor={cardTheme} />

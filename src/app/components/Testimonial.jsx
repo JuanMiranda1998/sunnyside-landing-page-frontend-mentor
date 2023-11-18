@@ -4,7 +4,7 @@ import React from 'react'
 const Testimonial = ({testimonialContent}) => {
   return (
     <div className='flex flex-col items-center md:max-w-xs'>
-            <div className='my-6 md:my-10 rounded-full overflow-hidden'>
+            <div className='my-6 md:my-12 rounded-full overflow-hidden'>
                 <Image 
                     width={70}
                     height={70}
