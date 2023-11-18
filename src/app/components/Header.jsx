@@ -17,7 +17,7 @@ const Header = () => {
             transition={{ duration: 0.5 }}
             className='flex flex-col items-center justify-center gap-11 mt-3 md:mt-0 md:mb-24'
           >
-            <h1 className=' text-4xl md:text-6xl text-center uppercase' style={{fontFamily: 'var(--ff-accent)', fontWeight:'var(--fw-bold)', letterSpacing: '8px'}}>We are Creatives</h1>
+            <h1 className=' text-4xl md:text-6xl text-center uppercase' style={{fontFamily: 'var(--ff-accent)', fontWeight:'var(--fw-black)', letterSpacing: '8px'}}>We are Creatives</h1>
             <Image
             className=''
               src='/images/icon-arrow-down.svg'
